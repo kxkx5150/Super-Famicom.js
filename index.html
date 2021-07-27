@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Super-Famicom.js</title>
+  </head>
+  <body>
+    <div class="ctrl_div">
+      <input id="rom" type="file" />
+      <input id="ishirom" type="checkbox" /> HiROM
+      <button id="pause">Pause</button>
+      <button id="reset">Reset</button>
+    </div>
+    <div>
+      <canvas id="output" width="512" height="480"></canvas>
+    </div>
+    <script src="js/snes/cart.js"></script>
+    <script src="js/snes/dsp.js"></script>
+    <script src="js/snes/spc.js"></script>
+    <script src="js/snes/apu.js"></script>
+    <script src="js/snes/pipu.js"></script>
+    <script src="js/snes/cpu.js"></script>
+    <script src="js/snes/snes.js"></script>
+    <script src="js/audio.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
